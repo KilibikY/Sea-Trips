@@ -9,6 +9,9 @@ html(lang="en")
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     body 
 header
@@ -40,54 +43,157 @@ header
         img(src="img/svg-one.png", alt="стрелочка")
 
 main
-  .container
-    .row 
-      .col-md-3
-        .hobobi  
-          h3 про нашу компанію
-          p.hiviri Наша компанія пропонує ряд цікавих-розважальних послуг, які принесуть вам ряд вражень!
-          a.agiga.text-center(href="#") детальніше
-          p * - зверніть увагу, зміна ціни може залежати від курсу долара.
+    .container
+      .row 
+        .col-md-3
+          .hobobi  
+            h3 про нашу компанію
+            p.hiviri Наша компанія пропонує ряд цікавих-розважальних послуг, які принесуть вам ряд вражень!
+            a.agiga.text-center(href="#") детальніше
+            p * - зверніть увагу, зміна ціни може залежати від курсу долара.
 
-      .col-md-9
-        .row.text-center
-          .col-md-4.mb-4
-            .bober
-              include compoment/bruh
-              p.font-weight-bold Тур на велосипедах
-              p.text-primary 335 грн*
-              p Подорожуючи на велосипеді, ви поринете в атмосферу мальовничих гір, чарівних краєвидів та шалених пригод.
-          .col-md-4.mb-4
-            .bobertwo
-              include compoment/retrocircles
-              p.font-weight-bold Екскурсія на острів
-              p.text-primary 500 грн*
-              p Подорож на острів занурить Вас у незабутні пригоди. Неймовірна краса у будь-яку пору року.
-          .col-md-4.mb-4
-            .bobertree
-              include compoment/maxomi
-              p.font-weight-bold Особливе замовлення
-              p.text-primary 250 грн*
-              p Обираючи цю подорож, Ви самостійно робите її незабутньою та не схожою на будь-які інші.
+        .col-md-9
+          .row.text-center
+            .col-md-4.mb-4
+              .bober
+                include compoment/bruh
+                p.font-weight-bold Тур на велосипедах
+                p.text-primary 335 грн*
+                p Подорожуючи на велосипеді, ви поринете в атмосферу мальовничих гір, чарівних краєвидів та шалених пригод.
+            .col-md-4.mb-4
+              .bobertwo
+                include compoment/retrocircles
+                p.font-weight-bold Екскурсія на острів
+                p.text-primary 500 грн*
+                p Подорож на острів занурить Вас у незабутні пригоди. Неймовірна краса у будь-яку пору року.
+            .col-md-4.mb-4
+              .bobertree
+                include compoment/maxomi
+                p.font-weight-bold Особливе замовлення
+                p.text-primary 250 грн*
+                p Обираючи цю подорож, Ви самостійно робите її незабутньою та не схожою на будь-які інші.
 
-    .row.bini
-      a(href="#") Дивитись усі плани 
-        include compoment/posidiv
+      .row.bini
+        a(href="#") Дивитись усі плани 
+          include compoment/posidiv
 
         
-    hr
-  .container
-    .row
-      .col-auto 
-        img.col-12(src="img/mip.png", alt="остров")
-      .col.contentu 
-        h4 Дивовижний безлюдний острів, який зводить людей з розуму 
-        p Пхукет - курортно-туристична Мекка Таїланду. Білосніжний пісок, і бірюзове море, і мальовничі скелі, а на них же, трохи вище - буйна тропічна рослинність. Все це можна побачити на власні очі.
-        a.text-center(href="#") замовити тур 
-        a(href="#") детальніше
-        .uhloli.col 
+      hr
+    .container
+      .row
+        .col-auto 
+          img.col-12(src="img/mip.png", alt="остров")
+        .col.contentu 
+          h4 Дивовижний безлюдний острів, який зводить людей з розуму 
+          p Пхукет - курортно-туристична Мекка Таїланду. Білосніжний пісок, і бірюзове море, і мальовничі скелі, а на них же, трохи вище - буйна тропічна рослинність. Все це можна побачити на власні очі.
+          a.text-center(href="#") замовити тур 
+          a(href="#") детальніше
           p 575 грн./день
           p В дану вартість входить обслуговування персоналу, вечеря і захоплюючі історії.
+.bruh       
+  .container
+    .row
+      .col
+        h5 СПІЙМАЙ ХВИЛЮ 
+        h5 ЖИВИ ЯСКРАВО!
+        p Полюбляєш екстрим та пригоди? Тоді тобі точно до нас! Мрієш стати на сапборд, але ніяк не міг наважитсь? Наші досвдчені інструктори навчать тебе вміло «піймати хвилі» та відчути себе справжнім сьорфером!
+        a.agiga.text-center(href="#") детальніше
+      .col.text-center
+        .holihot
+          img(src="img/lapki.png", alt="ну лапки")
+          p Чудова туристична фірма, що повністю виправдала мої очікування від подорожі. Я був приємно вражений екскурсіями, що для мене підібрали, працюють спражні професіонали своєї справи. 
+          p Олег Набережний
+          p клієнт
+          img(src="img/oleg.png", alt="олег тебя обидили(((((((")
+             
+.container 
+  .col.youbeat
+    h3.text-center.hub Спеціальні пропозиції тижня
+    p.text-center.no-youbeat Гарячі праозиції, по-швидше обирай і поїхали!
+  .col-lg-12.lolikis
+    .row
+      .col-md-3.mb-4
+        .boost-delta
+          img(src="img/para.jpg", alt="soft")
+          p Романтична подорож на 2
+          p Подорож у найромантичніші куточки світу, занурить вас у дивовижні пейзажі природи.
+          p 2599 грн.
+            a(href="lol ez ezka") замовити 
+              include compoment/posidiv
+      .col-md-3.mb-4
+        .boost-wex
+          img(src="img/cycling.jpg", alt="cheat")
+          p Велотур
+          p Бажаєте прокататись з вітерцем, та ще й з критим краєвидом довкола? Тоді швидше замовляй велотур!
+          p 555 грн.
+            a(href="lol ez ezka") замовити 
+              include compoment/posidiv
+      .col-md-3.mb-4
+        .bro9i
+          img(src="img/island.jpg", alt="lol wex")
+          p На острови!
+          p Хочеш зануритись у тишу, місце де не має натовпу, та панує дмка природа? Тоді вперед за пригодами!
+          p 1559 грн.
+            a(href="lol ez ezka") замовити 
+              include compoment/posidiv
+      .col-md-3.mb-4
+        .realsofter
+          img(src="img/wymen(.jpg", alt="ez")
+          p Катання на сьорфінгу
+          p Хочеш отримати екстрим та мега вражень одночасно? Тоді вперед ловити хвилі!
+          p 999 грн
+            a(href="lol ez ezka") замовити
+              include compoment/posidiv
+
+.container
+  .col-lg-12
+    .row
+      .col-md-3.mb-4 
+        .kol
+          h6 додаткова інформація
+      .col-md-3.mb-4
+        .kontik
+          .d-flex.align-items-center.gap-3
+            include compoment/kukk
+            h5 Графік роботи готелів.xls
+          p Розмір файла: 10Mb
+          p Розклад роботи усіх наших готелів, можете знайти за цим посиланням.Та додатково завантажити їх фото.
+          a.btn-download.mt-3.align-items-center(href="#")
+            include compoment/svg
+            span.ms-2 скачати
+      .col-md-3.mb-4
+        .loliks
+          .d-flex.align-items-center.gap-3
+            include compoment/kukk 
+            h5 Інформація про харчування.xls
+          p Розмір файла: 10Mb
+          p У будь-якому нашому турі включені сніданки у вартість. Якщо ж бажаєте замовити додотково, то ознайомтесь з умовами.
+          a.btn-download.mt-3.align-items-center(href="#")
+            include compoment/svg
+            span.ms-2 скачати 
+      .col-md-3.mb-4
+        .liliks.col
+          p задати питання
+          p Скажіть доброго дня нашому консультанту,і ми з радістю відповімо на Ваші запитання
+          .pon.align-items-center.gap-2.mb-4
+            include compoment/telepone
+            p +38 (050) 56 98 511
+          p Анна Миколаївна
+          p консультант
+          img(src="img/wymeni.png", alt="wymen")
+.thelastpart 
+
+fotter 
+  .filteri
+    p © 2016 Cars.com All rights reserved.
+
+        
+
+      
+          
+
+
+
 
 
 
