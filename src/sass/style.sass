@@ -195,14 +195,11 @@ main
     transition: color 0.5s ease-in-out, text-decoration 0.5s ease-in-out
     max-width: 200px
 
-.bini a:hover,
-.bini svg:hover
-    fill: #333
-    color: #333
-    text-decoration: none
+
 
 .bini path
     transition: fill 0.5s ease-in-out, text-decoration 0.5s ease-in-out
+    
  
 
 
@@ -215,12 +212,46 @@ main
     font-family: "Rubik"
     padding-top: 20px
 
+
+.bobertwo
+    position: relative
+    margin: 0 auto 
+    img
+        position: absolute
+        top: 0
+        left: 0
+        min-width: 60px
+        min-height: 61px
+
+.bobertree
+    position: relative
+    margin: 0 auto
+    img
+        position: absolute
+        top: 0
+        left: 0
+        min-width: 60px
+        min-height: 61px
+        
+.bini
+    a
+     &:hover
+        color: #9bcdcf
+        svg
+            path
+                fill: #9bcdcf
+
+
+
 .bober,
 .bobertwo,
 .bobertree
     margin: 0
     min-height: 270px
     cursor: pointer
+    transition: box-shadow 0.5s ease-in-out, text-decoration 0.5s ease-in-out
+    &:hover
+        box-shadow: (0px 4px 10.5px rgba(3,20,31,0.05))
 
 .bober p:last-child,
 .bobertwo p:last-child,
@@ -260,10 +291,8 @@ main
     font-weight: 400
     font-family: "Rubik"
 
-.bober:hover,
-.bobertwo:hover,
-.bobertree:hover
-    box-shadow: (0px 4px 10.5px rgba(3,20,31,0.05))
+
+
 
 hr
     border: none !important
@@ -504,13 +533,35 @@ hr
     position: absolute
     top: 0
     left: 0
-    min-width: 68.3px
+    min-width: 68.2px
     min-height: 60px
 
 .whoisare,
 .whoisarea
     position: relative
     margin: 0 auto
+
+.boost-delta,
+.boost-wex,
+.bro9i,
+.realsofter
+    a
+        &:hover
+            color: #53afc1
+            svg
+                path
+                    fill: #53afc1
+
+
+.boost-delta,
+.boost-wex,
+.bro9i,
+.realsofter
+    cursor: pointer
+    transition: box-shadow 0.5s ease-in-out, text-decoration 0.5s ease-in-out
+    &:hover
+        box-shadow: (0px 4px 10.5px rgba(3,20,31,0.05)) 
+            
 
 
 .joke
@@ -571,7 +622,15 @@ hr
     font-weight: 400
     font-family: "Rubik"
     text-align: right
-    text-decoration: none
+    text-decoration: none 
+    transition: color 0.5s ease-in-out, text-decoration 0.5s ease-in-out
+
+
+.boost-delta path, 
+.boost-wex path,
+.realsofter path,
+.bro9i path
+    transition: fill 0.5s ease-in-out, text-decoration 0.5s ease-in-out
 
 
 .kol h6
@@ -633,6 +692,18 @@ hr
     text-align: center
     padding: 5px 16px
     text-decoration: none
+    transition: all 0.5s ease-in-out
+    path
+        transition: stroke 0.5s ease-in-out
+    &:hover
+       color: #0099ff
+       border-color: #0099ff
+       svg 
+        path
+            stroke: #0099ff
+
+
+            
 
 .loliks h5 
     font-size: 18px
@@ -699,7 +770,7 @@ hr
     margin: 0
 
 .liliks p:nth-of-type(2)
-    padding: 27px 0 24px
+    padding: 27px 80px 24px
     font-size: 13px
     line-height: 16px
     color: #999999
@@ -772,11 +843,6 @@ hr
 .lolikis
     padding-bottom: 100px
 
-
-
-
-
-    
 
 @media (max-width: 1024px) and (min-width: 320px)
     .bini a
