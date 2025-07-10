@@ -1,4 +1,4 @@
-* 
+*
     margin: 0
     padding: 0
 
@@ -11,9 +11,11 @@ html
 body
     margin: 0
     padding: 0
+    background-color: #f5f8fa !important
 
 header
     background: url(../img/koropli.jpg) no-repeat bottom/cover
+    padding-bottom: 50px
 
 
 .flex-between
@@ -25,6 +27,10 @@ header
     display: flex
     justify-content: flex-end 
 
+.kol
+    padding-bottom: 100px !important
+    
+
 
 .items-center
     display: flex
@@ -32,14 +38,49 @@ header
     align-items: center
 
 .ny-test
-    padding: 150px 0 0 0
+
     font-size: 66px
     letter-spacing: 1px
-    line-height: 110px
     text-transform: uppercase
     color: #ffffff
     font-weight: 400
     font-family: "Rubik"
+
+
+.leni 
+    position: relative
+    margin: 0 auto
+    padding: 59px 0 51px
+    margin-bottom: 44px
+
+
+.leni:before,
+.leni:after
+    content: ""
+    position: absolute
+    left: 50%
+    width: 25%
+    opacity: 0.200
+    border-left: 4px solid #ffffff
+    border-right: 4px solid #ffffff
+    transform: translateX(-50%)
+
+
+.leni:before
+    top: 0
+    border-top: 4px solid #ffffff
+    height: 40px
+
+.leni:after
+    bottom: 0 
+    border-bottom: 4px solid #ffffff
+    height: 93px
+
+
+
+
+    
+
 
 
 .max-hud
@@ -52,23 +93,24 @@ header
     color: #fdfcfb
     font-weight: 400
     font-family: "Rubik"
-    padding: 15px 30px
+    padding: 10px 30px
     border-radius: 22px
     background: #ffb700
-    max-height: 50px
     text-align: center
     text-decoration: none
     border: 1px solid #ffb700
     transition: background 0.5s ease-in-out, color 0.5s ease-in-out
 
-.agiga:hover
-    background: transparent
-    color: #ffb700
+.agiga
+    &:hover
+        background: transparent
+        color: #ffb700
 
 
 
 
 .naviki
+    text-transform: uppercase
     font-size: 14px
     letter-spacing: 1px
     color: #e0e8f9
@@ -133,6 +175,7 @@ main
 
 .bini
   position: relative
+  padding: 0 0 72px
 
 
 .bini a 
@@ -176,7 +219,6 @@ main
 .bobertwo,
 .bobertree
     margin: 0
-    max-width: 270px
     min-height: 270px
     cursor: pointer
 
@@ -224,10 +266,8 @@ main
     box-shadow: (0px 4px 10.5px rgba(3,20,31,0.05))
 
 hr
-    width: 100%
-    height: 1px
-    background-color: #dfe3e6
-    padding: 50px 0 
+    border: none !important
+    padding-bottom: 75px
 
 .contentu
     max-width: 725px
@@ -243,16 +283,7 @@ hr
     font-family: "Rubik"
     margin: 0
 
-.contentu p:first-of-type
-    max-width: 460px
-    padding-top: 26px
-    font-size: 16px
-    line-height: 24px
-    color: #333333
-    font-weight: 400
-    font-style: italic
-    font-family: "Rubik"
-    margin: 0
+
     
 
 .contentu a:first-of-type
@@ -298,27 +329,39 @@ hr
     text-decoration: none
 
 
-
-
-
-
-.contentu p:last-of-type
+.only 
     font-size: 13px
     line-height: 20px
     color: #999999
     font-weight: 400
     font-family: "Rubik"
-    text-align: center
+    text-align: center !important
     min-width: 200px
 
-.contentu p:nth-of-type(2)
+.onlys 
+    background-color: #edf2f5
+    padding: 30px
+    max-height: 169px
+
+.likis 
     font-size: 24px
     line-height: 44px
     color: #0099ff
     font-weight: 400
     font-family: "Rubik"
     text-align: center
-
+    
+.okly 
+    max-width: 460px
+    padding-top: 26px
+    font-size: 16px
+    line-height: 24px
+    color: #333333
+    font-weight: 400
+    font-style: italic
+    font-family: "Rubik"
+    margin: 0
+    text-align: left
 .bruh
     background: url(../img/mope.jpg) no-repeat center/cover
     padding: 100px
@@ -349,6 +392,7 @@ hr
 .holihot
     margin: 0 auto
     position: relative
+    padding: 15px
 
 .holihot:before
     left: 0
@@ -434,43 +478,87 @@ hr
     text-align: center
     padding-bottom: 20px
 
-.bro9i p:first-of-type
-    font-size: 18px
-    line-height: 22px
-    color: #333333
-    font-weight: 400
-    font-family: "Rubik"
+.boost-delta img,
+.boost-wex img,
+.bro9i img,
+.realsofter img:last-of-type 
+    width: 100%
+    min-height: 216px
 
-.boost-delta p:first-of-type,
-.boost-wex p:first-of-type,
-.realsofter p:first-of-type
-    font-size: 18px
-    line-height: 26px
-    color: #333333
-    font-weight: 400
-    font-family: "Rubik"
-    
+.whoisare > img:first-of-type
+    position: absolute
+    top: 0
+    left: 0
+    min-width: 60px
+    min-height: 61px
+    z-index: 1
 
-.boost-delta p:nth-of-type(2),
-.boost-wex p:nth-of-type(2),
-.bro9i p:nth-of-type(2),
-.realsofter p:nth-of-type(2)
-    font-size: 13px
-    line-height: 19px
-    color: #999999
-    font-weight: 400
-    font-family: "Rubik"
-    
+.whoisarea > img:first-of-type
+    position: absolute
+    top: 0
+    left: 0
+    min-width: 60px
+    min-height: 61px
+    z-index: 1
+.whoisarea > img:last-of-type
+    position: absolute
+    top: 0
+    left: 0
+    min-width: 68.3px
+    min-height: 60px
 
-.boost-delta p:last-of-type,
-.boost-wex p:last-of-type,
-.realsofter p:last-of-type,
-.bro9i p:last-of-type
+.whoisare,
+.whoisarea
+    position: relative
+    margin: 0 auto
+
+
+.joke
+    display: flex
+    justify-content: space-between
+    align-items: baseline
+
+.joke p
     font-size: 24px
     line-height: 44px
     color: #0099ff
     font-weight: 400
     font-family: "Rubik"
+
+.cool
+    padding: 0 20px
+
+.cool svg 
+    fill: #ffb700
+
+.cool > p
+    font-size: 18px
+    line-height: 22px
+    color: #333333
+    font-weight: 400
+    font-family: "Rubik"
+    min-height: 30px
+
+.cool h3
+    font-size: 18px
+    line-height: 26px
+    color: #333333
+    font-weight: 400
+    font-family: "Rubik"
+    min-height: 30px
+    
+
+.cool > p 
+    font-size: 13px
+    line-height: 19px
+    color: #999999
+    font-weight: 400
+    font-family: "Rubik"
+    min-height: 57px
+    margin: 0
+    
+
+
 
 .boost-delta a, 
 .boost-wex a,
