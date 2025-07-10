@@ -3,7 +3,9 @@ html(lang="en")
     head
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0")
         link(rel="stylesheet", href="css/styles.css")
+        link(rel="shortcut icon", href="img/link.png", type="link")
         title Sea Trips - Туристична компанія
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +19,7 @@ html(lang="en")
 header
   .container 
     nav.navbar.navbar-expand-lg.flex-between.kol
-      a.navbar-brand(href='#')
+      a.navbar-brand(href='index.html')
         img(src="img/logo.png", alt="логотип ти де")
       button.navbar-toggler(type='button' data-bs-theme="dark" data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
         span.navbar-toggler-icon
@@ -81,7 +83,7 @@ main
                   p Обираючи цю подорож, Ви самостійно робите її незабутньою та не схожою на будь-які інші.
 
       .row.bini
-        a(href="#") Дивитись усі плани 
+        a.d-flex.align-items-center(href="#") Дивитись усі плани 
           include compoment/posidiv
 
         
@@ -132,7 +134,7 @@ main
               p Подорож у найромантичніші куточки світу, занурить вас у дивовижні пейзажі природи.
               .joke
                 p 2599 грн.
-                a(href="lol ez ezka") замовити 
+                a.d-flex.align-items-center(href="lol ez ezka") замовити 
                   include compoment/posidiv
       .col-md-3.mb-4
         .whoisarea 
@@ -145,7 +147,7 @@ main
               p Бажаєте прокататись з вітерцем, та ще й з критим краєвидом довкола? Тоді швидше замовляй велотур!
               .joke
                 p 555 грн.
-                a(href="lol ez ezka") замовити 
+                a.d-flex.align-items-center(href="lol ez ezka") замовити 
                   include compoment/posidiv
       .col-md-3.mb-4
         .whoisare
@@ -157,7 +159,7 @@ main
               p Хочеш зануритись у тишу, місце де не має натовпу, та панує дмка природа? Тоді вперед за пригодами!
               .joke
                 p 1559 грн.
-                a(href="lol ez ezka") замовити 
+                a.d-flex.align-items-center(href="lol ez ezka") замовити 
                   include compoment/posidiv
       .col-md-3.mb-4
         .whoisare
@@ -169,7 +171,7 @@ main
               p Хочеш отримати екстрим та мега вражень одночасно? Тоді вперед ловити хвилі
               .joke
                 p 999 грн
-                a(href="lol ez ezka") замовити
+                a.d-flex.align-items-center(href="lol ez ezka") замовити
                   include compoment/posidiv
 
 .container
@@ -204,7 +206,7 @@ main
           p Скажіть доброго дня нашому консультанту,і ми з радістю відповімо на Ваші запитання
           .pon.align-items-center.gap-2.mb-4
             include compoment/telepone
-            p +38 (050) 56 98 511
+            a(href="#") +38 (050) 56 98 511
           p Анна Миколаївна
           p консультант
           img(src="img/wymeni.png", alt="wymen")
