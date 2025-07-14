@@ -34,10 +34,10 @@ header
           a.naviki(href='#') Контакти
 
 
-    .leni.items-center
-      h1.text-center.text-primary.text-light.ny-test Морські пригоди
-      p.text-secondary.text-center.max-hud.text-light Не важливо, чи Ваша мандрівка належить до елітного рівня чи до економваріанту, туроператор S trips потурбується, щоб Ви залишились задоволеними! 
-      a.agiga.text-center(href="#") детальніше
+      .leni.items-center
+        h1.text-center.text-primary.text-light.ny-test Морські пригоди
+        p.text-secondary.text-center.max-hud.text-light Не важливо, чи Ваша мандрівка належить до елітного рівня чи до економваріанту, туроператор S trips потурбується, щоб Ви залишились задоволеними! 
+        a.agiga.text-center(href="#") детальніше
     .laniki.items-center
       h2 обери свій план подорожі
       p Наша фірма -лідер на ринку у своїй сфері
@@ -47,7 +47,7 @@ header
 main#lolikn
     .container
       .row 
-        .col.col-md-4
+        .col.col-md-12.col-lg-4 
           .hobobi
             h3 про нашу компанію
             p.hiviri Наша компанія пропонує ряд цікавих-розважальних послуг, які принесуть вам ряд вражень!
@@ -95,7 +95,7 @@ main#lolikn
         .col.contentu
           h4 Дивовижний безлюдний острів, який зводить людей з розуму
           .row
-            .col-8.col-xs-12
+            .col-8.col-xs-12.text-center
               p.okly Пхукет - курортно-туристична Мекка Таїланду. Білосніжний пісок, і бірюзове море, і мальовничі скелі, а на них же, трохи вище - буйна тропічна рослинність. Все це можна побачити на власні очі.
               a.text-center(href="#") замовити тур 
               a(href="#") детальніше
@@ -123,8 +123,8 @@ main#lolikn
     h3.text-center.hub Спеціальні пропозиції тижня
     p.text-center.no-youbeat Гарячі праозиції, по-швидше обирай і поїхали!
   .col-lg-12.lolikis
-    .row
-      .col-md-3.mb-4
+    .row.d-flex.justify-content-md-center
+      .col-lg-3.mb-4.col-md-5
         .whoisare
           img(src="img/reasl.png", alt="что за вас не нимаю")
           .boost-delta
@@ -136,7 +136,7 @@ main#lolikn
                 p 2599 грн.
                 a.d-flex.align-items-center(href="lol ez ezka") замовити 
                   include compoment/posidiv
-      .col-md-3.mb-4
+      .col-lg-3.mb-4.col-md-5
         .whoisarea 
           img(src="img/reasl.png", alt="что за вас не нимаю")
           img(src="img/velo.png", alt="велосепед тур")
@@ -149,7 +149,7 @@ main#lolikn
                 p 555 грн.
                 a.d-flex.align-items-center(href="lol ez ezka") замовити 
                   include compoment/posidiv
-      .col-md-4.mb-4
+      .col-lg-3.mb-4.col-md-5
         .whoisare
           img(src="img/reasl.png", alt="что за вас не нимаю")
           .bro9i
@@ -161,7 +161,7 @@ main#lolikn
                 p 1559 грн.
                 a.d-flex.align-items-center(href="lol ez ezka") замовити 
                   include compoment/posidiv
-      .col-md-3.mb-4
+      .col-lg-3.mb-4.col-md-5
         .whoisare
           img(src="img/reasl.png", alt="что за вас не нимаю")
           .realsofter
@@ -175,12 +175,12 @@ main#lolikn
                   include compoment/posidiv
 
 .container
-  .col-lg-12
-    .row
-      .col-md-3.mb-4 
+  .col-md-12
+    .row.gap-md-4.gap-lg-0.d-flex.justify-content-md-center
+      .col-lg-3.mb-4.col-md-5
         .kol
           h6 додаткова інформація
-      .col-md-3.mb-4
+      .col-lg-3.mb-4.col-md-5
         .kontik
           .d-flex.align-items-center.gap-3
             include compoment/kukk
@@ -190,7 +190,7 @@ main#lolikn
           a.btn-download.mt-3.align-items-center(href="#")
             include compoment/svg
             span.ms-2 скачати
-      .col-md-3.mb-4
+      .col-lg-3.mb-4.col-md-5
         .loliks
           .d-flex.align-items-center.gap-3
             include compoment/kukk 
@@ -200,7 +200,7 @@ main#lolikn
           a.btn-download.mt-3.align-items-center(href="#")
             include compoment/svg
             span.ms-2 скачати 
-      .col-md-3.mb-4
+      .col-lg-3.mb-4.col-md-5
         .liliks.col
           p задати питання
           p Скажіть доброго дня нашому консультанту,і ми з радістю відповімо на Ваші запитання
