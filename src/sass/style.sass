@@ -38,8 +38,7 @@ header
     align-items: center
 
 .ny-test
-
-    font-size: 66px
+    font-size: 63px
     letter-spacing: 1px
     text-transform: uppercase
     color: #ffffff
@@ -533,14 +532,13 @@ hr
     text-align: center
     padding-bottom: 20px
 
-.boost-delta img,
-.boost-wex img,
-.bro9i img,
-.realsofter img:last-of-type 
+
+.whoisarea img:last-of-type,
+.whoisare img:last-of-type
     width: 100%
     min-height: 216px
 
-.whoisare > img:first-of-type
+.whoisare img:first-of-type
     position: absolute
     top: 0
     left: 0
@@ -548,18 +546,18 @@ hr
     min-height: 61px
     z-index: 1
 
-.whoisarea > img:first-of-type
+.whoisarea img:first-of-type
     position: absolute
     top: 0
     left: 0
     min-width: 60px
     min-height: 61px
     z-index: 1
-.whoisarea > img:last-of-type
+.whoisarea img:nth-of-type(2)
     position: absolute
     top: 0
     left: 0
-    min-width: 68.2px
+    width: 26.1%
     min-height: 60px
 
 .whoisare,
@@ -873,9 +871,12 @@ hr
 
 .bini 
     a
-        +media(1040)
+        +media(1200)
             left: 50%
             transform: translateX(50%)
+        +media(992)
+            left: 43%
+            transform: translateX(52%)
         +media(768)
             left: 50%
             transform: translateX(-45%)
@@ -886,8 +887,8 @@ hr
             left: 20%
             transform: translateX(20%)
         +media(425)
-            left: 30%
-            transform: translateX(35%)
+            left: 25%
+            transform: translateX(25%)
 .holihot
     +media(320)
         margin-top: 90px 
@@ -939,11 +940,17 @@ hr
         +media(1400)
             padding-bottom: 46px
 .whoisarea
-    >img:last-of-type
-        +media(425)
-            min-width: 89.2px   
+    >img:nth-of-type(2)
+        +media(320)
+            width: 23%
+        +media(333)
+            width: 22.2%
         +media(768)
-            min-width: 68.2px   
+            width: 24.8%
+        +media(992)
+            width: 22.2% 
+        +media(1200)
+            width: 22.3%   
 .kol
     +media(320)
         text-align: center
@@ -956,3 +963,8 @@ hr
         margin-bottom: 30px !important
 
     
+.cool
+    +media(1200)
+        padding: 0 15px
+    +media(1400)
+        padding: 0 20px
